@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+#calculator {
+  width: 280px;
+  height: auto;
+  clear: both;
+  background: #0b7cb1;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#screen {
+  width: 100%;
+  height: 50px;
+  background: white;
+  border-radius: 5px; 
+}
+
+#buttons span {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: #003696;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 40px;
+  margin: 5px;
+  transition: all 0.2s ease;
+}
+
+#buttons span:active {
+  background: #4c84c4;
+}
+
+#clrFloat {
+  clear: both;
+  content: none;
+}
