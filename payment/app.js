@@ -10,9 +10,9 @@ app.use(bodyParser.json());
 
 var gateway = braintree.connect({
   environment: braintree.Environment.Sandbox,
-  merchantId: "rzbrjc57dpyfz8vj",
-  publicKey: "sqxq84spsthr6726",
-  privateKey: "dd0f2f81c5b638b51440aff4b3453df0"
+  merchantId: "<merchantId>",
+  publicKey: "<publicKey>",
+  privateKey: "<privateKey>"
 });
 
 app.get('/', function (req, res) {
